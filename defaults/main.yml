@@ -1,0 +1,6 @@
+# defaults/main.yml
+---
+# Do not modify the System
+virt_tools_install: True
+
+...

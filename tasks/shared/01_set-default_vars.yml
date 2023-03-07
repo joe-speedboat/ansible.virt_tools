@@ -1,0 +1,9 @@
+# 01_set-default_vars.yml
+---
+- name: set default variables
+  set_fact:
+    is_virtual_machine: False
+    file_virt_tools: False
+    process_virt_tools: False
+    do_install_tools: False
+...

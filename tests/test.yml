@@ -1,0 +1,7 @@
+---
+- name: virt_tools role test
+  hosts: all,!localhost
+  become: True
+  roles:
+    - joe-speedboat.virt_tools
+...

@@ -1,0 +1,30 @@
+---
+# Here belong all variables, that can be changed by a vars-file,
+# a playbook or a include.
+
+pkg_rhel_vmw:
+- open-vm-tools
+
+svc_rhel_vmw:
+- vmtoolsd
+- vgauthd
+
+pkg_debian_vmw:
+- open-vm-tools
+
+svc_debian_vmw:
+- open-vm-tools
+- vgauth
+
+pkg_rhel_kvm:
+- qemu-guest-agent
+
+svc_rhel_kvm:
+- qemu-guest-agent
+
+pkg_debian_kvm:
+- qemu-guest-agent
+
+svc_debian_kvm:
+- qemu-guest-agent
+...
