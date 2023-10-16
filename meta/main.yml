@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  namespace: joe-speedboat
+#  namespace: joe-speedboat
   role_name: virt_tools
   author: Chris Ruettimann
   description: Ansible role to install virt tools
